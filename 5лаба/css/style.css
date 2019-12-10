@@ -1,0 +1,95 @@
+/* roboto-regular - cyrillic_latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - cyrillic_latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Roboto Black'), local('Roboto-Black'),
+         url('../fonts/roboto-v20-cyrillic_latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-cyrillic_latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+.block {
+  padding:0px;
+ margin: 0px 0px 0px 0px; /* сверху справа снизу слева*/
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+	
+#bstext {
+	
+    padding: 0; 
+    text-align: center;
+    max-width:100%; 
+    z-index: 22;
+    top: 7rem;
+    left: 0;
+    right: 0;
+	
+}
+
+
+.well {  
+    color: #fff; 
+    position: relative; /*позиционирование*/	
+}
+
+p.p11 {
+      color: #fff; /*задаем цвет шрифта*/
+      font-size: 40px; /*размер шрифта*/
+}
+p.p22 {
+    color: #fff; /*задаем цвет шрифта*/
+    font-size: 30px; /*размер шрифта*/
+}
+
+p.p12 {
+   /* margin-bottom: 5px; /*задаем отступ*/
+    color: black; /*задаем цвет шрифта*/
+    font-size: 40px; /*размер шрифта*/
+	/*padding: 0px 0px 0px 50px; /* сверху справа снизу слева*/
+}
+p.p21 {
+    color: black; /*задаем цвет шрифта*/
+    font-size: 30px; /*размер шрифта*/
+}
+p.p50 {
+    color: black; /*задаем цвет шрифта*/
+    font-size: 10px; /*размер шрифта*/
+}
+
+.container2{
+	background: #2F343A;
+	/*width:99%;*/
+	padding: 0px 250px 0px 0px; /* сверху справа снизу слева*/
+	max-width: 100%;
+}
+
+A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #fff;
+   } 
+A:hover { 
+    
+    color: #fff; 
+   }  
+   
+ img.background {
+  max-width:100%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+
+}  
+
