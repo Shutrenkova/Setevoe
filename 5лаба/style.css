@@ -1,0 +1,237 @@
+.header-menu ul{
+    padding: 0; list-style: none;
+}
+ 
+.header-menu ul li{
+	margin-right: 30px;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+ 
+}
+.header-menu ul li a{
+    color: #ffffff;
+}
+.header-menu{
+	margin-left: 106px;
+}
+  
+.line {
+ 
+	border-left: 2px solid;
+	margin-left: 30px;
+	 
+	border-color: white;
+	height: 46px;
+}
+.logo2 img {
+	margin-left: 34px;
+	margin-right: 14px;
+	
+}
+img.background {
+	width:100%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+  
+  }  
+  .well {  
+    color: #fff; 
+    position: relative; /*позиционирование*/	
+}
+p.p11 {
+	font-weight: bold;
+	color: #fff; /*задаем цвет шрифта*/
+	margin-bottom: 45px;
+	padding-top: 45px;
+	font-size: 64px;
+line-height: 75px; 
+letter-spacing: 0.05em;
+ 
+}
+p.p22 {
+  color: #fff; /*задаем цвет шрифта*/
+  font-size: 18px; /*размер шрифта*/
+  line-height: 28px;
+}
+#bstext {
+	
+    padding: 0; 
+    text-align: center;
+	width:920px; 
+	height: 245px;
+    z-index: 22;
+    top: 7rem;
+    left: 180px;
+    right: 0;
+	
+}
+.container{
+	height: 245px;
+}
+ 
+.perevoz{
+	margin-top: 120px;
+	margin-left: 40px;
+} 
+.perevoz h3{
+	font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+p.p13{
+	font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+margin-bottom: 50px;
+}
+.perevoz2{
+	margin-left: 0px;
+	margin-top: 166px;
+}
+.container2{
+	height: 540px;
+}
+.imgnext{
+    margin-top: 156px;
+}
+.imgback{
+	margin-top: 260px;
+}
+.line2 {
+ 
+	border-top: 6px solid;
+	margin-bottom: 40px;
+	border-color: #C8A35F;
+	width: 90px;
+	 
+}
+.knopka{
+padding:18px 48px;
+background:  #C8A35F;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #ffffff;
+border: 0;
+}
+.uslugi{
+	margin-top: 120px;
+	margin-left: 175px;
+ 
+} 
+.uslugi h3{
+	font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 60px;
+}
+button{
+	padding:40px 55px;
+ border: 2px solid;
+	border-color:#2f343a;
+	
+}
+button p{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin-top: 43px;
+}
+.container3{
+	height: 744px;
+	width: 100%;
+}
+.komp{
+	margin-top: 120px;
+ margin-left: 175px;
+ 
+} 
+.komp h3{
+	font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 60px;
+}
+p.p14{
+	font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+}
+.komp1 button{
+	padding:25px 22px;
+	border: 0.25px solid;
+	   border-color: #C8A35F ;
+	   
+}
+.komp1 button p{
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #2f343a;
+}
+.mashina button{
+	padding:0px 0px;
+}
+.komp1{
+	margin-left: 65px;
+	margin-top: 150px;
+}
+.container5{
+	height: 600px;
+}
+p.p20{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+p.p15{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+p.p16{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}

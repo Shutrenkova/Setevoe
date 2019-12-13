@@ -83,11 +83,11 @@ body{
 }
 /*Header styles start*/
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left:0;
     width: 100%;
-}
+} 
 
 .header__wrapper{
     display: flex;
@@ -102,6 +102,7 @@ body{
 }
 .header__item{
     margin-right: 40px;
+    margin-bottom: 40px;
 }
 .header__item:last-child{
     margin-right: 0;
@@ -113,12 +114,56 @@ line-height: 20px;
 color: #FFFFFF;
 text-decoration: none;
 }
+.header__item a{
+    position: relative;
+    cursor: pointer;
+}
+.header__item a:after{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    top: 68px;
+    background-color: #FFFFFF;
+    content: "";
+    transition: width 0.3 ease-out;
+}
+.header__item a:hover:after, .header__item a:focus:after {
+    width: 100%;
+}
+
+/*li.header__item a::before{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: red
+    ;
+    position: absolute;
+    top: 91%;
+    left:0;
+    transition: .5s;
+    mix-blend-mode: multiply;
+}
+
+.header__link:hover{
+    background-color: #e5eae8;
+}
+li.header__item:hover a::before{
+    width: 107px;
+    transform: translateX(100%);
+}
+
+.header__item a:hover{
+    color: rgb(98, 0, 255);
+}*/
+
 /*Header styles end*/
 
 
 /*Intro styles start*/
-.intro{
-    min-height: 100vh;
+.fon{
+    height: 100vh;
     background: url(../img/Rectangle.jpg) no-repeat;
     background-size: cover;
     padding-top: 319px;
@@ -200,7 +245,7 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 
-color: #4985FF;
+color: #000000;
 margin-bottom: 30px;
 
 }
@@ -252,17 +297,34 @@ line-height: 22px;
 color: #000000;
 margin-bottom: 35px;
 }
+.letter{
+    color: #4985FF;
+}
 .footer__card a{
  
 font-weight: normal;
 font-size: 14px;
-line-height: 22px;
- 
+line-height: 22px; 
 color: #999999;
-
+text-decoration: none;
 }
 .footer__item{
     margin-bottom: 30px;
+}
+.footer__list li{
+    list-style-type: none;
+}
+.footer__list li:before{
+    content: url(../img/svg/vector.svg);
+}
+#mail:before {
+    content: url(../img/svg/group.svg); 
+}
+#tel:before {
+    content: url(../img/svg/group1.svg); 
+}
+#mesto:before {
+    content: url(../img/svg/placeholder.svg); 
 }
 .footer__p{
 font-weight: normal;
